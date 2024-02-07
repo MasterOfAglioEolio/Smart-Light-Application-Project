@@ -21,8 +21,26 @@
 4. 장면에 따른 조명 표현 기능
 5. WIFI Socket 통신 방식을 통한 조명 무선제어
 
+# 개발 환경
+- Python 3
+- Raspberry Pi
+- Anacond - Jupyter Notebook
+
+# 사용 기술
+
+## 조명 제어 Application
+- pyaudio
+
+## MusicCalssification Model (DeepLearning Model)
+- Tensorflow
+- Keras
+- Scikit-Learn
+- Tkinter
+- Librosa
+- Numpy, Pandas, Matplotlib
 
 
+## RaspBerry Pi
 
 
 
