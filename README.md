@@ -5,8 +5,8 @@
  스마트 감성조명을 이용해 심리적 불안증 치유에 도움이 될 수 있도록 라이트 테라피 제품을 조사, 분석하여 조명을 이용해 어떤 방식으로 심리치유에 도움을 주는지 참고하였고,
 기존 스마트 조명 제품들을 조사, 분석하여 사용자가 편리하게 사용할 수 있는 기능들을 벤치마킹하여 개발했습니다.  
 
-
 <h3> 기존의 프로젝트를 참고합니다.</h3>
+
 > [Dancy Pi: Audio Reactive LEDs](https://github.com/naztronaut/dancyPi-audio-reactive-led) <br/>
 > [Music-Genre-Classification-GTZAN](https://github.com/chittalpatel/Music-Genre-Classification-GTZAN)
 
