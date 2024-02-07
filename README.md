@@ -3,8 +3,8 @@
 Python으로 개발한 조명제어 소프트웨어와 Raspberry Pi를 이용한 스마트 조명제어 소프트웨어입니다.
 
 기존의 프로젝트를 참고합니다.
-> Dancy Pi: Audio Reactive LEDs (https://github.com/naztronaut/dancyPi-audio-reactive-led)
-> Music-Genre-Classification-GTZAN  (https://github.com/chittalpatel/Music-Genre-Classification-GTZAN)
+> [Dancy Pi: Audio Reactive LEDs](https://github.com/naztronaut/dancyPi-audio-reactive-led) <br/>
+> [Music-Genre-Classification-GTZAN](https://github.com/chittalpatel/Music-Genre-Classification-GTZAN)
 
 
 # 기능
