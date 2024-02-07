@@ -27,15 +27,14 @@ import librosa
 import config
 
 from threading import Thread
-
 import socket
-# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-#
-# HOST = '172.30.1.26'  # all available interfaces
-# PORT = 1428
-# s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# s.connect((HOST, PORT))
-# print("connect")
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+HOST = '172.30.1.26'  # all available interfaces
+PORT = 1428
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((HOST, PORT))
+print("connect")
 
 
 class Ui_MainWindow(object):
@@ -1313,9 +1312,7 @@ class Ui_MainWindow(object):
 
             # self.pushbtns[i].setMaximumHeight(200)
             # self.pushbtns[i].setMaximumWidth(300)
-
-        self.pushbtns[0].setIcon(QtGui.QIcon("images/긴장.png"))
-
+        self.pushbtns[0].setIcon(QtGui.QIcon())
         self.pushbtns[0].setStyleSheet(u"background-image: url(scene/spring.jpg);\n"
                                        "background-position: center;\n"
                                        "background-repeat: no-repeat;\n"
@@ -1328,8 +1325,7 @@ class Ui_MainWindow(object):
 
 
         )
-
-        self.pushbtns[1].setIcon(QtGui.QIcon("09emo/긴장.png"))
+        self.pushbtns[1].setIcon(QtGui.QIcon())
         self.pushbtns[1].setStyleSheet(u"background-image: url(scene/summer.jpg);\n"
                                        "background-position: center;\n"
                                        "background-repeat: no-repeat;\n"
@@ -1342,7 +1338,7 @@ class Ui_MainWindow(object):
 
         )
 
-        self.pushbtns[2].setIcon(QtGui.QIcon("09emo/긴장.png"))
+        self.pushbtns[2].setIcon(QtGui.QIcon())
         self.pushbtns[2].setStyleSheet(u"background-image: url(scene/1920fall2.jpg);\n"
                                        "background-position: center;\n"
                                        "background-repeat: no-repeat;\n"
@@ -1354,8 +1350,7 @@ class Ui_MainWindow(object):
             'padding:15px;'
 
         )
-
-        self.pushbtns[3].setIcon(QtGui.QIcon("09emo/긴장.png"))
+        self.pushbtns[3].setIcon(QtGui.QIcon())
         self.pushbtns[3].setStyleSheet(u"background-image: url(scene/1920winter2.jpg);\n"
                                        "background-position: center;\n"
                                        "background-repeat: no-repeat;\n"
@@ -1368,7 +1363,7 @@ class Ui_MainWindow(object):
 
         )
 
-        self.pushbtns[4].setIcon(QtGui.QIcon("09emo/긴장.png"))
+        self.pushbtns[4].setIcon(QtGui.QIcon())
         self.pushbtns[4].setStyleSheet(u"background-image: url(scene/1920sunflowe.jpg);\n"
                                        "background-position: center;\n"
                                        "background-repeat: no-repeat;\n"
@@ -1381,8 +1376,7 @@ class Ui_MainWindow(object):
 
         )
 
-        self.pushbtns[5].setIcon(QtGui.QIcon("09emo/긴장.png"))
-
+        self.pushbtns[5].setIcon(QtGui.QIcon())
         self.pushbtns[5].setStyleSheet(u"background-image: url(scene/1920노을.jpg);\n"
                                        "background-position: center;\n"
                                        "background-repeat: no-repeat;\n"

@@ -8,11 +8,6 @@ import microphone
 import dsp
 import led
 
-import socket
-import sys
-import neopixel
-import os
-import platform
 from rpi_ws281x import *
 
 
