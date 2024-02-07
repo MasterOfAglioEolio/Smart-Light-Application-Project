@@ -29,31 +29,29 @@
 # 사용 기술
 
 ## 조명 제어 Application
-- PySide2
-- pyaudio
-- socket
-- Librosa
-- Threading
-- Numpy
+- PySide2 (조명 제어를 위한 GUI 제작)
+- pyaudio (실시간 오디오 데이터 인식)
+- Numpy (수치 계산 및 행렬 연산)
+- Librosa (오디오 raw 데이터 분석)
+- Threading (음악 장르 분류 및 오디오 데이터 인식 병렬처리)
+- socket (Raspberry Pi <-> Application 간 WiFi Socket 통신)
 
 ## MusicCalssification Model (Convolution Neural Network Model)
-- Tensorflow
-- Keras
-- Scikit-Learn
-- Tkinter
-- Librosa
-- Numpy, Pandas, Matplotlib
+- Tensorflow, Keras (음악 장르 분류를 위한 CNN모델 학습)
+- Tkinter (음악 장르 분류 시각화)
+- Librosa (오디오 raw 데이터 분석)
+- Numpy, Pandas, Matplotlib (행렬 연산 및 데이터 전처리, 시각화) 
 
 ### Train Music DataSet
 > [GTZAN Dataset](http://opihi.cs.uvic.ca/sound/genres.tar.gz)</br>
 
 원본 데이터는 총 1.2GB 크기로, 10개의 장르 폴더에 균등하게 나눠진 1000개의 오디오 파일(.au)로 구성되어 있습니다. 즉, 각 장르마다 100개의 오디오 파일이 있습니다.
 
-## RaspBerry Pi
-- rpi_ws281x & neopixel
-- socket
-- scipy
-- numpy
+## Raspberry Pi
+- rpi_ws281x & neopixel (네오픽셀 제어 라이브러리)
+- scipy (gaussian_filter1d 활용 데이터를 필터링을 통한 조명 움직임 구현 등 디지털 신호 처리용)
+- Numpy (행렬 연산)
+- socket (Raspberry Pi <-> Application 간 WiFi Socket 통신)
 
 
 
