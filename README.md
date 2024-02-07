@@ -29,9 +29,14 @@
 # 사용 기술
 
 ## 조명 제어 Application
+- PySide2
 - pyaudio
+- socket
+- Librosa
+- Threading
+- Numpy
 
-## MusicCalssification Model (DeepLearning Model)
+## MusicCalssification Model (Convolution Neural Network Model)
 - Tensorflow
 - Keras
 - Scikit-Learn
@@ -39,9 +44,16 @@
 - Librosa
 - Numpy, Pandas, Matplotlib
 
+### Train Music DataSet
+> [GTZAN Dataset](http://opihi.cs.uvic.ca/sound/genres.tar.gz)</br>
+
+원본 데이터는 총 1.2GB 크기로, 10개의 장르 폴더에 균등하게 나눠진 1000개의 오디오 파일(.au)로 구성되어 있습니다. 즉, 각 장르마다 100개의 오디오 파일이 있습니다.
 
 ## RaspBerry Pi
-
+- rpi_ws281x & neopixel
+- socket
+- scipy
+- numpy
 
 
 
