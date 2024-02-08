@@ -76,7 +76,10 @@
 ![졸작 플로우](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/90aa5cd8-1998-498e-a694-c41e9c55b092)
 
 
-# 기능 시연
+# 기능 시연 
+
+시연 영상은 링크를 클릭하세요
+[시연 영상 링크](https://youtu.be/8p6gbbaSfeg)
 
 # GUI
 
