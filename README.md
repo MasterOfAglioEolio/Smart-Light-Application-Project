@@ -36,7 +36,9 @@
 - Numpy (수치 계산 및 행렬 연산)
 - Librosa (오디오 raw 데이터 분석)
 - Threading (음악 장르 분류 및 오디오 데이터 인식 병렬처리)
+- Opencv2 (장면 이미지 컬러 히스토그램 분석)
 - socket (Raspberry Pi <-> Application 간 WiFi Socket 통신)
+
 
 ## MusicCalssification Model (Convolution Neural Network Model)
 - Tensorflow, Keras (음악 장르 분류를 위한 CNN모델 학습)
@@ -70,7 +72,8 @@
 
 # 기능 흐름
 
-![졸작 플로우](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/4e6fd084-910d-4285-9203-f37bd8b15fbe)
+![졸작 플로우](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/90aa5cd8-1998-498e-a694-c41e9c55b092)
+
 
 # 기능 시연
 
@@ -79,6 +82,12 @@
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/a20dcd07-e7ac-4a98-ab40-233c49edf82e)
 
 # 사용자 감성 유도 조명 기능
+
+- 색채나 조명 색에 따른 감성반응에 관한 연구 자료 8건을 조사, 분석한 결과로 각 색상별 가장 많은 빈도수를 나타낸 감성 키워드를 바탕으로 프리셋 제공
+
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/3162edd0-81e0-4f76-ba26-615a06a91c17)
+
+
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/40445472-2a2f-4a4f-aa7d-e6f068f44790)
 
 
@@ -87,13 +96,23 @@
 
 # 색 온도 조절 기능
 
-![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/f080959d-2943-4ea7-9367-8c84bc694e30)
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/2fbccc03-998c-46cb-8745-100e9edc1a8f)
+
 
 # 음악에 어울리는 조명 기능
 
+- 음악 장르 분류 모델(CNN)을 통해 음악 장르 분류 
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/a7a59e81-514f-49ae-a192-85e41eb47748)
+
+- 분류된 장르에 따라 음악에 어울리는 조명 색상 & 움직임 제공
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/33dd3ffc-509a-483f-a721-2ac4fc95d391)
 
 # 장면에 따른 조명 표현 기능
+
+- Opencv2 라이브러리를 활용하여 장면 이미지의 컬러 히스토그램을 분석하여 장면 프리셋 제공
+
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/21260348-81ac-451b-b176-3cf2e4ddb59a)
+
 
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/8f8fb482-24d7-4d88-a94c-ffe31882514f)
 
