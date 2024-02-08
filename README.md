@@ -117,4 +117,10 @@
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/8f8fb482-24d7-4d88-a94c-ffe31882514f)
 
 
-Python Raspberry Pi3에서 동작합니다. 
+# 향후 개선안 
+
+- 모듈화하여 가독성을 높이고 유지보수를 용이하게 해야 함
+(현재 코드는 모듈화되어있지 않고, 하나의 파일에 대부분의 기능이 집약된 상태로 가독성이 매우 낮고 유지보수가 매우 어려운 상태)
+- 자동 네트워크 설정 기능 추가: 현재는 Raspberry Pi(Server)와 Python Application(Client) 간의 IP와 Port를 수동으로 설정해야 하는 번거로움이 있는데, 이를 개선하기 위해 사용 중인 Wi-Fi를 자동으로 인식하고 IP와 Port를 자동으로 배정하는 기능을 추가해야 합.
+ 이렇게 하면 사용자가 별도로 네트워크 설정을 할 필요 없이 더 편리하게 시스템을 사용할 수 있음 
+- 현재 장면에 따른 조명 표현 기능을 고도화시켜 동영상의 움직임에 따라 조명을 표현하는 기능 개발
