@@ -74,26 +74,26 @@
 
 # 기능 시연
 
-## GUI
+# GUI
 
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/a20dcd07-e7ac-4a98-ab40-233c49edf82e)
 
-## 사용자 감성 유도 조명 기능
+# 사용자 감성 유도 조명 기능
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/40445472-2a2f-4a4f-aa7d-e6f068f44790)
 
 
-## 사용자 색 선택 기능
+# 사용자 색 선택 기능
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/921e8f1d-9966-421a-a437-f6daa06fb63a)
 
-## 색 온도 조절 기능
+# 색 온도 조절 기능
 
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/f080959d-2943-4ea7-9367-8c84bc694e30)
 
-## 음악에 어울리는 조명 기능
+# 음악에 어울리는 조명 기능
 
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/33dd3ffc-509a-483f-a721-2ac4fc95d391)
 
-## 장면에 따른 조명 표현 기능
+# 장면에 따른 조명 표현 기능
 
 ![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/8f8fb482-24d7-4d88-a94c-ffe31882514f)
 
