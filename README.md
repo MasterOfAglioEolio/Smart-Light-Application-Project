@@ -16,15 +16,17 @@
 # 기능
 제공하는 기능은 다음과 같습니다
 1. 사용자 감성 유도 조명 기능
-2. 색 온도에 따른 조명 표현 기능
-3. 음악에 어울리는 조명 기능
-4. 장면에 따른 조명 표현 기능
-5. WIFI Socket 통신 방식을 통한 조명 무선제어
+2. 사용자 색 선택 기능
+3. 색 온도 조절 기능
+4. 음악에 어울리는 조명 기능
+5. 장면에 따른 조명 표현 기능
+6. WIFI Socket 통신 방식을 통한 조명 무선제어
 
 # 개발 환경
 - Python 3
 - Raspberry pi 4B
 - Anacond - Jupyter Notebook
+
 
 # 사용 기술
 
@@ -63,7 +65,37 @@
 |------|---|---|
 |Raspberry pi 4B|neopixel WS2812B|SMPS|
 
+# 동작 구조
+![졸작 구조](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/4aaaa1a3-e383-4b9e-999a-58638efac6e1)
 
+# 기능 흐름
+
+![졸작 플로우](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/4e6fd084-910d-4285-9203-f37bd8b15fbe)
+
+# 기능 시연
+
+## GUI
+
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/a20dcd07-e7ac-4a98-ab40-233c49edf82e)
+
+## 사용자 감성 유도 조명 기능
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/40445472-2a2f-4a4f-aa7d-e6f068f44790)
+
+
+## 사용자 색 선택 기능
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/921e8f1d-9966-421a-a437-f6daa06fb63a)
+
+## 색 온도 조절 기능
+
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/f080959d-2943-4ea7-9367-8c84bc694e30)
+
+## 음악에 어울리는 조명 기능
+
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/33dd3ffc-509a-483f-a721-2ac4fc95d391)
+
+## 장면에 따른 조명 표현 기능
+
+![image](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/8f8fb482-24d7-4d88-a94c-ffe31882514f)
 
 
 Python Raspberry Pi3에서 동작합니다. 
