@@ -1,4 +1,4 @@
-# Smart-Light-Application-Project (Light-Is-Right Project)
+# IoT-Smart-Light-Application-Project (Light-Is-Right)
 ![제목 없는 동영상 - Clipchamp로 제작](https://github.com/XgitalBounce/Smart-Light-Application-Project/assets/60294084/bb09cbc1-5f28-446b-894d-4335b9bd114f)
 
 "Light-Is-Right" 프로젝트는 Python으로 개발된 소프트웨어와 Raspberry Pi를 활용하여 LED Strip을 제어하는 스마트 조명 시스템입니다. </br>
